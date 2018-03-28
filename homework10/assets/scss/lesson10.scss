@@ -1,0 +1,24 @@
+@mixin center{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@mixin button{
+      height: 35px;
+      color: white;
+      border-radius: 7px;
+      background: #1bbc9c;
+}
+
+@mixin br{
+     border: 1px solid black;
+}
+
+$cg: #505050;
+
+a{	text-decoration: none;
+	color:white;}
+
+@import 'fonts';
+@import 'header';
+@import 'main_section';
