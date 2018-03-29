@@ -2,7 +2,7 @@
 $('.slider').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 2000,
 
   prevArrow: '<button class="arrow_left" type="button"><i class="fas fa-chevron-left"></i></button>',
